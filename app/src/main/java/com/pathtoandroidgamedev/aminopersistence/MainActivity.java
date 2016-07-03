@@ -74,6 +74,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 currentStringU=defaultStringYou;
                 editor.putString(stringNameAmino, currentStringO);
                 editor.putString(stringNameYou, currentStringU);
+                editor.commit();
                 aminoButton.setText(currentStringO);
                 youButton.setText(currentStringU);
                 break;
